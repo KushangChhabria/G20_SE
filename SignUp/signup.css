@@ -98,10 +98,18 @@ body {
   color: #ccc;
 }
 
-#eye {
+#eye-password {
   position: absolute;
   right: 10px; /* Position eye icon inside the box on the right */
-  top: 50%;
+  top: 65%;
+  transform: translateY(-50%);
+  width: 24px;
+  cursor: pointer;
+}
+#eye-confirm {
+  position: absolute;
+  right: 10px; /* Position eye icon inside the box on the right */
+  top: 65%;
   transform: translateY(-50%);
   width: 24px;
   cursor: pointer;
